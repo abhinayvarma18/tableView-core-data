@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE54DD611D5DE7AC00EEDF5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE54DD601D5DE7AC00EEDF5C /* main.m */; };
+		EE54DD641D5DE7AD00EEDF5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE54DD631D5DE7AD00EEDF5C /* AppDelegate.m */; };
+		EE54DD671D5DE7AE00EEDF5C /* HubblerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE54DD651D5DE7AE00EEDF5C /* HubblerApp.xcdatamodeld */; };
+		EE54DD6A1D5DE7AF00EEDF5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE54DD691D5DE7AF00EEDF5C /* ViewController.m */; };
+		EE54DD6F1D5DE7AF00EEDF5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE54DD6E1D5DE7AF00EEDF5C /* Images.xcassets */; };
+		EE54DD721D5DE7AF00EEDF5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE54DD701D5DE7AF00EEDF5C /* LaunchScreen.xib */; };
+		EE54DD7E1D5DE7AF00EEDF5C /* HubblerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE54DD7D1D5DE7AF00EEDF5C /* HubblerAppTests.m */; };
+		EED91B461D630C0B005C5DB5 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EED91B451D630C0B005C5DB5 /* SimpleTableCell.m */; };
+		EED91B491D633194005C5DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED91B471D633194005C5DB5 /* Main.storyboard */; };
+		EED91B4B1D6332A4005C5DB5 /* navbar_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EED91B4A1D6332A4005C5DB5 /* navbar_blue.png */; };
+		EEDA537E1D5E6E9100F46268 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDA537D1D5E6E9100F46268 /* SecondViewController.m */; };
+		EEDA53811D5F3A4200F46268 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDA53801D5F3A4200F46268 /* ThirdViewController.m */; };
+		EEDA53841D609EAB00F46268 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDA53831D609EAB00F46268 /* FourthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE54DD781D5DE7AF00EEDF5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE54DD531D5DE7AA00EEDF5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE54DD5A1D5DE7AB00EEDF5C;
+			remoteInfo = HubblerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE54DD5B1D5DE7AB00EEDF5C /* HubblerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HubblerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE54DD5F1D5DE7AC00EEDF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE54DD601D5DE7AC00EEDF5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE54DD621D5DE7AD00EEDF5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE54DD631D5DE7AD00EEDF5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE54DD661D5DE7AE00EEDF5C /* HubblerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HubblerApp.xcdatamodel; sourceTree = "<group>"; };
+		EE54DD681D5DE7AE00EEDF5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE54DD691D5DE7AF00EEDF5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE54DD6E1D5DE7AF00EEDF5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE54DD711D5DE7AF00EEDF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE54DD771D5DE7AF00EEDF5C /* HubblerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubblerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE54DD7C1D5DE7AF00EEDF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE54DD7D1D5DE7AF00EEDF5C /* HubblerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HubblerAppTests.m; sourceTree = "<group>"; };
+		EED91B441D630C0B005C5DB5 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		EED91B451D630C0B005C5DB5 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		EED91B481D633194005C5DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EED91B4A1D6332A4005C5DB5 /* navbar_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_blue.png; sourceTree = "<group>"; };
+		EEDA537C1D5E6E9100F46268 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EEDA537D1D5E6E9100F46268 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EEDA537F1D5F3A4200F46268 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		EEDA53801D5F3A4200F46268 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		EEDA53821D609EAB00F46268 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		EEDA53831D609EAB00F46268 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE54DD581D5DE7AB00EEDF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE54DD741D5DE7AF00EEDF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE54DD521D5DE7AA00EEDF5C = {
+			isa = PBXGroup;
+			children = (
+				EE54DD5D1D5DE7AB00EEDF5C /* HubblerApp */,
+				EE54DD7A1D5DE7AF00EEDF5C /* HubblerAppTests */,
+				EE54DD5C1D5DE7AB00EEDF5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE54DD5C1D5DE7AB00EEDF5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE54DD5B1D5DE7AB00EEDF5C /* HubblerApp.app */,
+				EE54DD771D5DE7AF00EEDF5C /* HubblerAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE54DD5D1D5DE7AB00EEDF5C /* HubblerApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE54DD621D5DE7AD00EEDF5C /* AppDelegate.h */,
+				EE54DD631D5DE7AD00EEDF5C /* AppDelegate.m */,
+				EE54DD681D5DE7AE00EEDF5C /* ViewController.h */,
+				EE54DD691D5DE7AF00EEDF5C /* ViewController.m */,
+				EEDA537C1D5E6E9100F46268 /* SecondViewController.h */,
+				EEDA537D1D5E6E9100F46268 /* SecondViewController.m */,
+				EEDA537F1D5F3A4200F46268 /* ThirdViewController.h */,
+				EEDA53801D5F3A4200F46268 /* ThirdViewController.m */,
+				EED91B4A1D6332A4005C5DB5 /* navbar_blue.png */,
+				EEDA53821D609EAB00F46268 /* FourthViewController.h */,
+				EEDA53831D609EAB00F46268 /* FourthViewController.m */,
+				EED91B471D633194005C5DB5 /* Main.storyboard */,
+				EED91B441D630C0B005C5DB5 /* SimpleTableCell.h */,
+				EED91B451D630C0B005C5DB5 /* SimpleTableCell.m */,
+				EE54DD6E1D5DE7AF00EEDF5C /* Images.xcassets */,
+				EE54DD701D5DE7AF00EEDF5C /* LaunchScreen.xib */,
+				EE54DD5E1D5DE7AC00EEDF5C /* Supporting Files */,
+				EE54DD651D5DE7AE00EEDF5C /* HubblerApp.xcdatamodeld */,
+			);
+			path = HubblerApp;
+			sourceTree = "<group>";
+		};
+		EE54DD5E1D5DE7AC00EEDF5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE54DD5F1D5DE7AC00EEDF5C /* Info.plist */,
+				EE54DD601D5DE7AC00EEDF5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE54DD7A1D5DE7AF00EEDF5C /* HubblerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE54DD7D1D5DE7AF00EEDF5C /* HubblerAppTests.m */,
+				EE54DD7B1D5DE7AF00EEDF5C /* Supporting Files */,
+			);
+			path = HubblerAppTests;
+			sourceTree = "<group>";
+		};
+		EE54DD7B1D5DE7AF00EEDF5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE54DD7C1D5DE7AF00EEDF5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE54DD5A1D5DE7AB00EEDF5C /* HubblerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE54DD811D5DE7AF00EEDF5C /* Build configuration list for PBXNativeTarget "HubblerApp" */;
+			buildPhases = (
+				EE54DD571D5DE7AB00EEDF5C /* Sources */,
+				EE54DD581D5DE7AB00EEDF5C /* Frameworks */,
+				EE54DD591D5DE7AB00EEDF5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HubblerApp;
+			productName = HubblerApp;
+			productReference = EE54DD5B1D5DE7AB00EEDF5C /* HubblerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE54DD761D5DE7AF00EEDF5C /* HubblerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE54DD841D5DE7AF00EEDF5C /* Build configuration list for PBXNativeTarget "HubblerAppTests" */;
+			buildPhases = (
+				EE54DD731D5DE7AF00EEDF5C /* Sources */,
+				EE54DD741D5DE7AF00EEDF5C /* Frameworks */,
+				EE54DD751D5DE7AF00EEDF5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE54DD791D5DE7AF00EEDF5C /* PBXTargetDependency */,
+			);
+			name = HubblerAppTests;
+			productName = HubblerAppTests;
+			productReference = EE54DD771D5DE7AF00EEDF5C /* HubblerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE54DD531D5DE7AA00EEDF5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Abhinay Varma";
+				TargetAttributes = {
+					EE54DD5A1D5DE7AB00EEDF5C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EE54DD761D5DE7AF00EEDF5C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EE54DD5A1D5DE7AB00EEDF5C;
+					};
+				};
+			};
+			buildConfigurationList = EE54DD561D5DE7AA00EEDF5C /* Build configuration list for PBXProject "HubblerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE54DD521D5DE7AA00EEDF5C;
+			productRefGroup = EE54DD5C1D5DE7AB00EEDF5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE54DD5A1D5DE7AB00EEDF5C /* HubblerApp */,
+				EE54DD761D5DE7AF00EEDF5C /* HubblerAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE54DD591D5DE7AB00EEDF5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED91B4B1D6332A4005C5DB5 /* navbar_blue.png in Resources */,
+				EED91B491D633194005C5DB5 /* Main.storyboard in Resources */,
+				EE54DD721D5DE7AF00EEDF5C /* LaunchScreen.xib in Resources */,
+				EE54DD6F1D5DE7AF00EEDF5C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE54DD751D5DE7AF00EEDF5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE54DD571D5DE7AB00EEDF5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDA537E1D5E6E9100F46268 /* SecondViewController.m in Sources */,
+				EE54DD641D5DE7AD00EEDF5C /* AppDelegate.m in Sources */,
+				EEDA53811D5F3A4200F46268 /* ThirdViewController.m in Sources */,
+				EE54DD671D5DE7AE00EEDF5C /* HubblerApp.xcdatamodeld in Sources */,
+				EE54DD6A1D5DE7AF00EEDF5C /* ViewController.m in Sources */,
+				EEDA53841D609EAB00F46268 /* FourthViewController.m in Sources */,
+				EED91B461D630C0B005C5DB5 /* SimpleTableCell.m in Sources */,
+				EE54DD611D5DE7AC00EEDF5C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE54DD731D5DE7AF00EEDF5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE54DD7E1D5DE7AF00EEDF5C /* HubblerAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE54DD791D5DE7AF00EEDF5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE54DD5A1D5DE7AB00EEDF5C /* HubblerApp */;
+			targetProxy = EE54DD781D5DE7AF00EEDF5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE54DD701D5DE7AF00EEDF5C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE54DD711D5DE7AF00EEDF5C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EED91B471D633194005C5DB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED91B481D633194005C5DB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE54DD7F1D5DE7AF00EEDF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE54DD801D5DE7AF00EEDF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE54DD821D5DE7AF00EEDF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HubblerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE54DD831D5DE7AF00EEDF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HubblerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE54DD851D5DE7AF00EEDF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HubblerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubblerApp.app/HubblerApp";
+			};
+			name = Debug;
+		};
+		EE54DD861D5DE7AF00EEDF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HubblerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubblerApp.app/HubblerApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE54DD561D5DE7AA00EEDF5C /* Build configuration list for PBXProject "HubblerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE54DD7F1D5DE7AF00EEDF5C /* Debug */,
+				EE54DD801D5DE7AF00EEDF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE54DD811D5DE7AF00EEDF5C /* Build configuration list for PBXNativeTarget "HubblerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE54DD821D5DE7AF00EEDF5C /* Debug */,
+				EE54DD831D5DE7AF00EEDF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE54DD841D5DE7AF00EEDF5C /* Build configuration list for PBXNativeTarget "HubblerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE54DD851D5DE7AF00EEDF5C /* Debug */,
+				EE54DD861D5DE7AF00EEDF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE54DD651D5DE7AE00EEDF5C /* HubblerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE54DD661D5DE7AE00EEDF5C /* HubblerApp.xcdatamodel */,
+			);
+			currentVersion = EE54DD661D5DE7AE00EEDF5C /* HubblerApp.xcdatamodel */;
+			path = HubblerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE54DD531D5DE7AA00EEDF5C /* Project object */;
+}
